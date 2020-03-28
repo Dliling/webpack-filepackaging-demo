@@ -15,6 +15,7 @@ module.exports = {
         libraryTarget: 'umd', // 引用方式:AMD,CJS,ESM,script
         libraryExport: 'default'
     },
+    // production模式下打包的文件默认为压缩后的
     mode: 'none',
     optimization: {
         minimize: true,
